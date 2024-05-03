@@ -1,5 +1,5 @@
 [tool.cibuildwheel]
-environment = { PIP_FIND_LINKS = "wheelhouse https://github.com/makslevental/mlir-wheels/releases/expanded_assets/latest", PIP_NO_BUILD_ISOLATION = "false" }
+environment = { PIP_FIND_LINKS = "wheelhouse https://github.com/omontfort/mlir-wheels/releases/expanded_assets/latest", PIP_NO_BUILD_ISOLATION = "false" }
 build-verbosity = 3
 before-all = [
     "rm -rf {project}/build",
