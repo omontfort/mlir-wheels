@@ -3,7 +3,7 @@
 What's this? It's a means to getting a distribution of MLIR like this:
 
 ```shell
-$ pip install mlir -f https://github.com/makslevental/mlir-wheels/releases/expanded_assets/latest
+$ pip install mlir -f https://github.com/omontfort/mlir-wheels/releases/expanded_assets/latest
 ```
 
 This will install a thing that will let you do this:
