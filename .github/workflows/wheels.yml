@@ -124,7 +124,8 @@ jobs:
           name: build_artifact_python_bindings
 
   build-linux-aarch64:
-
+    # disable this job
+    if: false
     continue-on-error: true
 
     runs-on: ${{ matrix.OS }}
